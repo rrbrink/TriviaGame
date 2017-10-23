@@ -1,0 +1,97 @@
+<!DOCTYPE>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+        <title>Trivia Game</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <body>
+    <div class="title">
+            <h1 class="title">Strange Law's in USA Trivia</h1>
+    </div>
+    
+    <div class="container">
+     <div class="jumbotron" style="height: 900px;">
+         <center><img hidden  id="gif" src="https://media.giphy.com/media/xUA7b68hKy839wiVJC/giphy.gif" ></center>
+         <center><img hidden  id="gif2" src="https://media.giphy.com/media/1BXa2alBjrCXC/giphy.gif" ></center>
+         <h5 hidden id="winner">Winner!!</h5>
+         <!--div for the timer-->
+         <div id="boxText">
+        <div class="row">
+             <div class="col-md-12">
+             <p id="timer">30</p>
+             
+         </div>
+         </div>
+         <!--first question and click boxes-->
+         <div class="row">
+             <div class="col-md-12">
+                 <h2 class="question"> On Sunday, in Columbus Ohio, it is illegal to sell what?</h2>
+             </div>
+         </div>
+         <!--3 clickboxes with answers-->
+         <div id="firstrow" class="row">
+             <div class="col-md-4">
+                    <label class="radio-inline"><input id="answer" type="radio" name="group1"value="wrong">Red Wine</label>
+             </div>
+             <div class="col-md-4">
+                    <label class="radio-inline"><input id="answer" type="radio" name="group1" value="right">Corn Flakes</label>
+                </div>
+                <div class="col-md-4">
+                        <label class="radio-inline"><input id="answer" type="radio" name="group1" value="wrong">Gudah Cheese</label>
+                    </div>
+         </div>
+         <div  class="row">
+                <div class="col-md-12">
+                    <h2 class="question"> What is banned in public places in Florida after 6pm?</h2>
+                </div>
+            </div>
+         <div id="secondrow" class="row">
+                <div id="answer" class="col-md-4">
+                       <label class="radio-inline"><input id="answer" type="radio" name="group2" value="wrong">Talking to your governor</label>
+                </div>
+                <div class="col-md-4">
+                       <label class="radio-inline"><input id="answer" type="radio" name="group2"value="right">Passing Gas</label>
+                   </div>
+                   <div class="col-md-4">
+                           <label class="radio-inline"><input id="answer" type="radio" name="group2" value="wrong">Riding a bus during pregnacy</label>
+                       </div>
+            </div>
+            <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="question">In St Louise Missouri, it is illegal for a fireman to rescue who?</h2>
+                    </div>
+                </div>
+             <div id="thirdrow" class="row">
+                    <div class="col-md-4">
+                           <label class="radio-inline"><input id="answer" type="radio" name="group3"value="right">An undressed woman</label>
+                    </div>
+                    <div class="col-md-4">
+                           <label class="radio-inline"><input id="answer" type="radio" name="group3" value="wrong">An undressed man</label>
+                       </div>
+                       <div class="col-md-4">
+                               <label  class="radio-inline"><input id="answer" type="radio" name="group3" value="wrong">An undressed child</label>
+                           </div>
+                </div>
+                <button type="button" class="btn btn-primary" class="submit" class="btn btn-primary" onclick="return handleClick();" type="submit">Submit</button>
+         
+            </div>
+
+    </div>
+      </div>
+            
+             
+                                        
+                            
+                                         
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+           <script type="text/javascript" src="./script.js"></script>
+           
+            
+    </body>
+</html>

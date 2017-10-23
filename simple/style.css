@@ -1,0 +1,35 @@
+body {
+    background-image: url("http://yourlegalmeans.com/wp-content/uploads/2012/10/R_F_7531-17.jpg");
+    background-size: cover;
+}
+.title {
+    text-align: center;
+    margin: 200px 0 0 0;
+    font-size: 100px;
+}
+
+    .question {
+font-size: 50px;
+text-align: center;
+
+}
+#firstrow {
+    font-size: 30px;
+    color: #cf444f;
+}
+
+#secondrow{
+    font-size: 30px;
+    color: white;
+}
+#thirdrow{
+    font-size: 30px;
+    color: #443f7c
+}
+#timer {
+    text-align: center;
+    font-size: 35px;
+}
+.submit {
+    text-align: center;
+}
